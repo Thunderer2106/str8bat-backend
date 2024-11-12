@@ -30,7 +30,7 @@ const profileRoutes = require("./routes/profile");
 require("dotenv").config();
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://str8bat-frontend.onrender.com",
   })
 );
 app.use(cors());

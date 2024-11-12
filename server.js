@@ -30,7 +30,7 @@ const profileRoutes = require("./routes/profile");
 require("dotenv").config();
 app.use(
   cors({
-    origin: "https://str8bat-frontend.onrender.com",
+    origin: "https://base-auth.vercel.app",
   })
 );
 app.use(cors());

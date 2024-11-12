@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Debug files
+.vscode/
+.idea/
+*.swp
+
+# Build files
+dist/
+coverage/
+.tmp/
+.cache/
+
+
+knexfile.js.bak
